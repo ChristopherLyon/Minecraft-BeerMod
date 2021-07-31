@@ -1,6 +1,6 @@
 {
     "parent": "minecraft:item/generated",
     "textures": {
-    "layer0": "beermod:item/beerglass"
+    "layer0": "beermod:item/rice"
     }
 }
