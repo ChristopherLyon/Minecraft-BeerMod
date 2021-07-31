@@ -1,29 +1,30 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "beermod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Lyan's Beer Mod",
+  "description": "This is a mod for all your brewing needs!",
   "authors": [
-    "Me!"
+    "Aksel Trøan",
+    "Christopher Lyon"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/ChristopherLyon/Minecraft-BeerMod",
+    "sources": ""
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT License",
+  "icon": "assets/beermod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "beermod.beer.mod.BeerMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "beermod.mixins.json"
   ],
 
   "depends": {
