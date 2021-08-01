@@ -26,5 +26,8 @@ The Minecraft-BeerMod aims to bring all the fuctionality expected in brewing bee
 
 [![CTO](https://img.shields.io/badge/CTO-Alexander%20Lyon-red)](https://github.com/arlyon)
 
+[![Noob](https://img.shields.io/badge/Noob-Benjamin%20Lyon-pink)](https://github.com/Benjamin-Lyon)
+
+
 ## Current Verison
 `Stable Pre-Release 0.0.1`
