@@ -1,0 +1,14 @@
+import beermod.beer.mod
+
+public class Beer extends Item {
+     
+    public Beer(Settings settings) {
+        super(settings);
+    }
+ 
+    @Override
+    public TypedActionResult<ItemStack> use(World world, PlayerEntity playerEntity, Hand hand) {
+        playerEntity.playSound(SoundEvents.DRINK, 1.0F, 1.0F);
+        return TypedActionResult.success(playerEntity.getStackInHand(hand));
+    }
+}
